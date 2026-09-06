@@ -1,0 +1,127 @@
+{
+  "world": "bio_metropolis",
+  "display_name": "Bio-Metropolis",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_World_Tree_Lift",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -1000.0,
+        200.0
+      ],
+      "note": "A living lift. It asks where you are going and sometimes disagrees.",
+      "coop": false
+    },
+    {
+      "name": "INT_Root_Market",
+      "kind": "Interactable",
+      "location_uu": [
+        -1400.0,
+        -1600.0,
+        120.0
+      ],
+      "note": "Shop stalls grown into the roots (Part II 38).",
+      "coop": true
+    },
+    {
+      "name": "INT_Grafting_Bench",
+      "kind": "Interactable",
+      "location_uu": [
+        1000.0,
+        1200.0,
+        100.0
+      ],
+      "note": "Combines two Organic weapons into one. Results are not always predictable.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Pollen_Tram",
+      "kind": "Interactable",
+      "location_uu": [
+        2400.0,
+        -600.0,
+        300.0
+      ],
+      "note": "Traverses the canopy on a schedule the city sets, not you.",
+      "coop": false
+    },
+    {
+      "name": "INT_Hive_Council",
+      "kind": "Interactable",
+      "location_uu": [
+        -2200.0,
+        1800.0,
+        200.0
+      ],
+      "note": "NPC faction. They remember every interaction (GDD 18).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Wound",
+      "kind": "Interactable",
+      "location_uu": [
+        3200.0,
+        -2200.0,
+        600.0
+      ],
+      "note": "A cut in the world-tree. Healing it changes the district's layout.",
+      "coop": true
+    },
+    {
+      "name": "INT_Sap_Vault",
+      "kind": "Interactable",
+      "location_uu": [
+        -3000.0,
+        -1000.0,
+        150.0
+      ],
+      "note": "Rare crafting materials behind a puzzle of growth cycles.",
+      "coop": false
+    },
+    {
+      "name": "INT_Seedpod_Elevator_Shaft",
+      "kind": "Interactable",
+      "location_uu": [
+        1600.0,
+        3000.0,
+        100.0
+      ],
+      "note": "Drops you to the roots. Coming back up is a separate problem.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Key_of_Roots",
+      "kind": "Interactable",
+      "location_uu": [
+        -4000.0,
+        3400.0,
+        800.0
+      ],
+      "note": "One of three keys the CORE accepts (Part II 47).",
+      "coop": false
+    },
+    {
+      "name": "INT_Canopy_Bridge",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -4000.0,
+        2600.0
+      ],
+      "note": "Grows across as you walk, retracts behind you.",
+      "coop": false
+    }
+  ]
+}

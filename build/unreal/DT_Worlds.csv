@@ -1,0 +1,20 @@
+Name,DisplayName,Tagline,Kind,Source,Gravity,Combat,PvP,Vehicles,GroundSizeUU,PortalLocationUU,InteractableCount,StructureCount
+trailer,Your Trailer,Home. Lobby. Museum. Armory. Social space.,home,GDD,1.0,False,False,False,none,0.0|-360.0|0.0,14,0
+portal_hub,The Portal Hub,Different worlds. Different rules.,hub,Portal hub concept board (P1-P5 + CORE),1.0,False,False,True,22000x22000,0.0|6000.0|0.0,14,36
+living_city,The Living City,A massive impossible city where architecture constantly changes.,reality,GDD 7,1.0,True,False,True,42000x42000,0.0|-0.0|0.0,18,48
+the_deep,The Deep,A surreal underwater civilization.,reality,GDD 7,0.35,True,False,True,40000x40000,0.0|-0.0|600.0,13,40
+the_garden,The Garden,A living ecosystem where plants and creatures interact with players.,reality,GDD 7,1.0,True,False,False,40000x40000,0.0|-0.0|0.0,13,76
+the_void,The Void,A cosmic environment where physics behaves differently.,reality,GDD 7,0.15,True,False,False,none,0.0|-0.0|0.0,12,30
+thought_world,The Thought World,The environment reacts to player behavior.,reality,GDD 7,1.0,False,False,False,30000x30000,0.0|-0.0|0.0,11,105
+the_dreaming,The Dreaming,Surreal. Dream logic. Nothing needs to explain itself.,reality,Feature board (realities row),0.6,False,False,False,34000x34000,0.0|-0.0|0.0,10,38
+the_wasteland,The Wasteland,"Post-apocalyptic. Somebody lived here, and recently.",reality,Feature board (realities row),1.0,True,zoned,True,46000x46000,0.0|-0.0|0.0,11,74
+pet_sanctuary,The Pet Sanctuary,No weapons. No threat. No timer.,reality,Pet Sanctuary concept board,1.0,False,False,False,22000x22000,0.0|1400.0|0.0,11,47
+bio_metropolis,Bio-Metropolis,"A city that was grown, not built.",reality,Portal hub board (P2),0.9,True,False,False,38000x38000,0.0|-0.0|0.0,10,70
+plasma_strait,Plasma-Strait,Storm-lashed wreck fields under a sky that never settles.,reality,Portal hub board (P3),1.1,True,zoned,True,44000x44000,0.0|-0.0|0.0,10,54
+ruins_labyrinth,Ruins-Labyrinth,"An overgrown maze that was a temple, and may still be.",reality,Portal hub board (P4),1.0,True,False,False,30000x30000,0.0|7000.0|0.0,10,147
+gravity_ring,Gravity-Ring,A ringed world where down is a local opinion.,reality,Portal hub board (P5),variable,True,False,True,none,0.0|-0.0|0.0,9,46
+the_arcade,The Arcade,A neon street where the machines are doors.,reality,"Arcade concept boards, rebuilt original. See GDD Part II 47 — no third-party games, characters or marquees.",1.0,False,zoned,True,28000x28000,0.0|10000.0|0.0,12,43
+crystal_shatter,The Shatter,A crystalline world that rings when you walk on it.,reality,Portal hub board (P1),0.8,True,False,False,32000x32000,0.0|-0.0|0.0,8,68
+portal_glade,The Portal Glade,Enter. Explore. Return.,hub,Feature board — THE PORTALS panel,1.0,False,False,False,20000x20000,0.0|3400.0|0.0,9,71
+the_cascades,The Cascades,Hidden rooms. Secret portals. Living worlds.,reality,Feature board — EXPLORE & DISCOVER panel,0.85,True,False,False,42000x42000,0.0|8000.0|0.0,11,75
+the_bazaar,The Bazaar,Trade what you have. Get what you need.,reality,Key-art board — market strip; Feature board — BARTERING panel,1.0,False,False,True,26000x26000,0.0|9000.0|0.0,12,111

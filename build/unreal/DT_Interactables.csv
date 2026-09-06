@@ -1,0 +1,219 @@
+Name,World,DisplayName,LocationUU,Prompt,Behaviour,Secret,RepeatBehaviour,RequiresTwoPlayers
+trailer__The_Reality_Machine,trailer,The Reality Machine,0.0|-360.0|110.0,Choose a reality,Opens character -> reality -> experience selection. The heart of the game.,,Hums differently depending on how many realities you have unlocked.,false
+trailer__Artifact_Pedestal_A,trailer,Artifact Pedestal A,-110.0|-140.0|50.0,Place artifact,Displays one artifact; visitors can examine it.,,,false
+trailer__Artifact_Pedestal_B,trailer,Artifact Pedestal B,-110.0|-20.0|50.0,Place artifact,Second display slot.,,,false
+trailer__Artifact_Pedestal_C,trailer,Artifact Pedestal C,-110.0|100.0|50.0,Place artifact,Third display slot.,,,false
+trailer__Weapon_Wall,trailer,Weapon Wall,135.0|-60.0|140.0,Rack weapon,Mounts up to six weapons. Lobby-only weapons still fire in here (GDD 4).,,,false
+trailer__Workbench,trailer,Workbench,120.0|220.0|90.0,Craft,Crafting and weapon upgrades (Part II 37).,,,false
+trailer__Wardrobe,trailer,Wardrobe,-120.0|260.0|100.0,Customize,Character creator access without re-entering the Machine.,,,false
+trailer__The_Fridge,trailer,The Fridge,125.0|-240.0|80.0,Open,Ordinary fridge. Ordinary food.,"After the first reality is completed, it opens onto a corridor instead.",Different corridor each time.,false
+trailer__Trophy_Shelf,trailer,Trophy Shelf,-135.0|-240.0|150.0,Examine,Minigame trophies and event rewards.,,,false
+trailer__The_Radio,trailer,The Radio,130.0|-140.0|110.0,Tune,Plays reality-specific stations.,One station is broadcasting from inside whatever reality you visited last.,,false
+trailer__Pet_Bed,trailer,Pet Bed,90.0|80.0|15.0,Interact,Where an adopted companion lives (Part II 42). Visitors can pet it.,,,true
+trailer__Guest_Book,trailer,Guest Book,-20.0|-300.0|90.0,Sign,Every visitor who enters your trailer can leave one line.,,,true
+trailer__The_Window,trailer,The Window,-145.0|-80.0|150.0,Look,Shows your own sky.,Occasionally shows a sky you have not visited yet.,,false
+trailer__Vehicle_Pad,trailer,Vehicle Pad,450.0|100.0|5.0,Store vehicle,Outside the door. Displays one owned vehicle (Part II 43).,,,false
+portal_hub__Portal_P1___Crystalline,portal_hub,Portal P1 - Crystalline,0.0|-4000.0|200.0,Enter,"Gateway to the shattered-crystal world. Tag strip shows biome, hazard, activity.",,,false
+portal_hub__Portal_P2___Bio_Metropolis,portal_hub,Portal P2 - Bio-Metropolis,-3800.0|-1240.0|200.0,Enter,Gateway to the grown city.,,,false
+portal_hub__Portal_P3___Plasma_Strait,portal_hub,Portal P3 - Plasma-Strait,-2350.0|3240.0|200.0,Enter,Gateway to the storm and the wreck fields.,,,false
+portal_hub__Portal_P4___Ruins_Labyrinth,portal_hub,Portal P4 - Ruins-Labyrinth,2350.0|3240.0|200.0,Enter,Gateway to the overgrown maze.,,,false
+portal_hub__Portal_P5___Gravity_Ring,portal_hub,Portal P5 - Gravity-Ring,3800.0|-1240.0|200.0,Enter,Gateway to the ringed world.,,,false
+portal_hub__The_CORE,portal_hub,The CORE,0.0|-0.0|200.0,Approach,The hub's power source and its central mystery. Anchor for the three-key hunt.,Accepts three keys found across three different realities.,,true
+portal_hub__Tag_Reader,portal_hub,Tag Reader,600.0|-800.0|120.0,Read,Explains what a portal's icon strip means before you commit.,,,false
+portal_hub__The_Noticeboard,portal_hub,The Noticeboard,-600.0|-800.0|140.0,Read,Player-left notes about what is through each portal.,,,true
+portal_hub__Bartering_Post,portal_hub,Bartering Post,1000.0|600.0|100.0,Trade,Opens the two-sided trade window with a nearby player (Part II 39).,,,true
+portal_hub__The_Vending_Machine,portal_hub,The Vending Machine,-1000.0|600.0|100.0,Buy,Dispenses an object from a reality you have not visited. Never the same twice.,,Rotates stock every real-world hour.,false
+portal_hub__Minigame_Arch,portal_hub,Minigame Arch,0.0|-2000.0|200.0,Enter,Leads to the minigame portals (Part II 41).,,,false
+portal_hub__Vehicle_Rail,portal_hub,Vehicle Rail,1600.0|-0.0|50.0,Mount,Spawns your stored vehicle for hub traversal.,,,false
+portal_hub__The_Bench_of_Agreement,portal_hub,The Bench of Agreement,0.0|1400.0|50.0,Sit,Two players sitting at once opens something under the gantry.,,,true
+portal_hub__Broken_Portal_P0,portal_hub,Broken Portal P0,-3000.0|-3000.0|200.0,Examine,"Dead frame, no light.","Comes alive once, briefly, after the CORE is opened.",,false
+living_city__The_Bust,living_city,The Bust,600.0|-900.0|110.0,Hold cup under chin,A marble bust pours coffee. Nobody in the city finds this remarkable. +Stamina.,Every twentieth cup is not coffee.,At night it pours something that glows.,false
+living_city__The_Complaining_Door,living_city,The Complaining Door,-1100.0|-1400.0|120.0,Try handle,"Locked, and it explains at length exactly why, and whose fault it is.",,Tell it you agree and it unlocks.,false
+living_city__Staircase_to_Nowhere,living_city,Staircase to Nowhere,1800.0|700.0|300.0,Climb,Ends in open air two storeys up.,Keep walking upward anyway and the next step appears.,,false
+living_city__The_Payphone,living_city,The Payphone,-600.0|1300.0|130.0,Answer,Rings whenever a player walks past. Someone is on the line and knows your name.,,,false
+living_city__The_Puddle,living_city,The Puddle,1200.0|-300.0|2.0,Look in,Reflects a version of this street that is on fire. Yours is not.,,,false
+living_city__The_Chair_That_Waits,living_city,The Chair That Waits,-1600.0|-400.0|50.0,Sit,Moves a little closer whenever no player is looking at it.,,,false
+living_city__The_Mailbox,living_city,The Mailbox,300.0|-1700.0|100.0,Open,Holds a note another player left in this reality.,,,true
+living_city__The_Loud_Painting,living_city,The Loud Painting,-1900.0|900.0|200.0,Approach,"Plays music, audible only within two metres of it.",,,false
+living_city__The_Chandelier,living_city,The Chandelier,900.0|1800.0|600.0,Watch,Swings to point at the nearest player.,After dark it points at something else entirely.,,false
+living_city__The_Bureaucrat_s_Desk,living_city,The Bureaucrat's Desk,-400.0|-2400.0|90.0,Stamp form,Stamping the form moves a wall somewhere else in the district.,,,true
+living_city__The_Elevator,living_city,The Elevator,2200.0|-1200.0|100.0,Ride,Six buttons. Four go to floors.,The fifth goes to a floor that is not in this building.,,false
+living_city__The_Telescope,living_city,The Telescope,-2400.0|2000.0|150.0,Look through,Shows other realities.,,"Once in a while it shows this street, from behind you.",false
+living_city__Building_That_Breathes,living_city,Building That Breathes,3400.0|-2800.0|2000.0,Touch,The facade expands and contracts. Warm to the touch.,,,false
+living_city__The_Suggestion_Box,living_city,The Suggestion Box,0.0|2600.0|100.0,Write,Whatever you write shows up somewhere in the city later.,,,true
+living_city__Traffic_Light_Choir,living_city,Traffic Light Choir,1500.0|-2200.0|400.0,Listen,"Three lights, singing in harmony. They change key when a car passes.",,,false
+living_city__The_Fountain,living_city,The Fountain,-900.0|-0.0|60.0,Drop item in,"Give it an item, get a different one back. Rarity is roughly preserved.",,,false
+living_city__Reality_Weapon_Cache,living_city,Reality Weapon Cache,4000.0|3400.0|100.0,Open,Contains the Gravity Gun (Reality class) behind a two-player lock.,,,true
+living_city__The_Eye_of_Reality,living_city,The Eye of Reality,-4600.0|-4000.0|1200.0,Take,Legendary artifact. Origin: Reality 07. Status: unknown.,Only appears once the city has rearranged itself three times.,,false
+the_deep__The_Lantern_Shoal,the_deep,The Lantern Shoal,1000.0|-1400.0|800.0,Follow,A shoal of lights that leads somewhere if you keep up. It does not wait.,,,false
+the_deep__Pressure_Door,the_deep,Pressure Door,-1400.0|-900.0|200.0,Turn wheel,Takes two players turning opposite wheels at once.,,,true
+the_deep__The_Singing_Coral,the_deep,The Singing Coral,700.0|1200.0|300.0,Touch,Each branch is a note. Play the right five and something opens below.,The sequence is written on the ceiling of the sunken hall.,,false
+the_deep__Air_Pocket_Chapel,the_deep,Air Pocket Chapel,-2200.0|1800.0|500.0,Enter,A dry room at the bottom of the sea. Someone has been living here.,,,false
+the_deep__The_Anchor,the_deep,The Anchor,2600.0|-400.0|100.0,Pull,Attached to something that is not a boat.,,,false
+the_deep__Message_Bottles,the_deep,Message Bottles,400.0|-2200.0|150.0,Open,Notes from players who drowned here.,,,true
+the_deep__Bioluminescent_Switchboard,the_deep,Bioluminescent Switchboard,-800.0|400.0|200.0,Rewire,Rerouting the light changes which corridors are safe.,,,false
+the_deep__The_Whale_Skeleton,the_deep,The Whale Skeleton,3800.0|3000.0|600.0,Enter ribcage,"Something is nesting in it. It is friendly, mostly.",,,false
+the_deep__Tide_Organ,the_deep,Tide Organ,-3400.0|-2600.0|400.0,Play,The current plays it. You can change the tuning and the current follows.,,,false
+the_deep__Sunken_Vending_Machine,the_deep,Sunken Vending Machine,1600.0|2600.0|100.0,Buy,Still works. Still takes Credits. Dispenses dry snacks.,,,false
+the_deep__The_Drowned_Museum,the_deep,The Drowned Museum,-4000.0|800.0|300.0,Explore,"Somebody else's trophy room, flooded. Their artifacts are still on the pedestals.",One pedestal is empty and labelled with your character's name.,,false
+the_deep__Organic_Weapon_Pod,the_deep,Organic Weapon Pod,3000.0|-3400.0|400.0,Harvest,Contains the Living Blade (Organic class).,,,false
+the_deep__The_Depth_Marker,the_deep,The Depth Marker,0.0|4400.0|2000.0,Read,Counts down as you descend. Below zero it keeps counting.,,,false
+the_garden__The_Greeting_Vine,the_garden,The Greeting Vine,500.0|-700.0|100.0,Offer hand,Shakes your hand. Remembers you next visit.,,On the third visit it introduces you to another plant.,false
+the_garden__Seed_Bank,the_garden,Seed Bank,-900.0|-1200.0|100.0,Deposit / withdraw,Plant a seed here and it grows into something over real-world days.,,,true
+the_garden__The_Carnivore,the_garden,The Carnivore,1400.0|600.0|150.0,Feed,Feed it the wrong thing and it sulks for a week.,,,false
+the_garden__Pollen_Bell,the_garden,Pollen Bell,-1600.0|1100.0|200.0,Ring,Calls every creature within range. Some of them are pleased about it.,,,false
+the_garden__The_Compost_Heap,the_garden,The Compost Heap,2200.0|-1600.0|100.0,Bury item,"Bury an item, come back later, get something stranger.",Bury an artifact and the Garden makes an opinion known.,,false
+the_garden__Walking_Tree,the_garden,Walking Tree,-2800.0|-500.0|800.0,Follow,It is going somewhere. It has been going there for a long time.,,,false
+the_garden__The_Beehive_Archive,the_garden,The Beehive Archive,1100.0|-2600.0|400.0,Listen,"The hum is a recording. Of what, is the question.",,,false
+the_garden__Mushroom_Trampoline,the_garden,Mushroom Trampoline,-600.0|2200.0|100.0,Jump,Launches you into the canopy. The canopy has its own map.,,,false
+the_garden__The_Gardener_s_Shed,the_garden,The Gardener's Shed,3300.0|2000.0|150.0,Open,"Tools, notes, and a schedule for something that is not gardening.",,,false
+the_garden__Sap_Still,the_garden,Sap Still,-3600.0|3000.0|120.0,Operate,Brews Healing and Hype potions from harvested sap (Part II 36).,,,false
+the_garden__The_Quiet_Clearing,the_garden,The Quiet Clearing,0.0|-3800.0|0.0,Stand still,Nothing happens until you stop moving for thirty seconds.,,,false
+the_garden__Plant_Whip_Bloom,the_garden,Plant Whip Bloom,2600.0|-3000.0|200.0,Cut,Yields the Plant Whip (Organic class).,,,false
+the_garden__The_Cat,the_garden,The Cat,-300.0|1400.0|30.0,Follow,Not a pet. Leads patient players somewhere worth going.,,,false
+the_void__The_Handhold,the_void,The Handhold,300.0|-500.0|100.0,Grab,The only fixed point. Let go and you drift.,,,false
+the_void__Gravity_Well_Switch,the_void,Gravity Well Switch,-1200.0|-800.0|400.0,Flip,Reverses which way is down for everyone in the region.,,,true
+the_void__The_Long_Rope,the_void,The Long Rope,1800.0|900.0|1200.0,Climb,Tied at one end. The other end is not visible.,,,false
+the_void__Starlight_Forge,the_void,Starlight Forge,-2000.0|1600.0|2200.0,Use,Upgrades Cosmic weapons. Consumes Shards.,,,false
+the_void__The_Slow_Clock,the_void,The Slow Clock,900.0|-2000.0|-800.0,Wind,"Time near it runs at a third speed. Useful in a fight, awkward in a conversation.",,,false
+the_void__Debris_of_a_Trailer,the_void,Debris of a Trailer,3000.0|-1400.0|3000.0,Search,"Someone else's home, in pieces.",Their guest book survived. Your name is in it.,,false
+the_void__The_Echo,the_void,The Echo,-2600.0|-2200.0|-1400.0,Shout,"Repeats what you said, correctly, in a voice that is not yours.",,,false
+the_void__Star_Cannon_Cradle,the_void,Star Cannon Cradle,2400.0|2800.0|1800.0,Take,Yields the Star Cannon (Cosmic class).,,,false
+the_void__The_Tether_Ring,the_void,The Tether Ring,0.0|3000.0|600.0,Attach,Two players tethered can reach islands neither could alone.,,,true
+the_void__Black_Marble,the_void,Black Marble,-3800.0|-0.0|4000.0,Take,Weighs more than the island it is sitting on.,,,false
+the_void__The_Silent_Bell,the_void,The Silent Bell,1400.0|-3600.0|-2000.0,Ring,No sound. Everyone in the reality feels it.,,,false
+the_void__Time_Shard_Rift,the_void,Time Shard Rift,-800.0|4000.0|2600.0,Reach in,Yields the Time Shard (Reality class). Costs something.,,,false
+thought_world__The_First_Door,thought_world,The First Door,0.0|-800.0|120.0,Open,Leads wherever you were expecting it to lead.,,,false
+thought_world__Mirror_of_Habits,thought_world,Mirror of Habits,-1000.0|-400.0|160.0,Look,Shows how you have been playing. Not always flatteringly.,,,false
+thought_world__The_Path_That_Forms,thought_world,The Path That Forms,800.0|1000.0|10.0,Walk,Ground appears one step ahead. Stop and it stops.,,,false
+thought_world__Room_of_Loud_Thinking,thought_world,Room of Loud Thinking,-1800.0|1400.0|150.0,Enter,Your proximity voice is broadcast to the whole reality while inside.,,,true
+thought_world__The_Contradiction,thought_world,The Contradiction,1600.0|-1200.0|200.0,Approach,A staircase going up and down at once. Both are true.,,,false
+thought_world__Certainty_Meter,thought_world,Certainty Meter,-400.0|-2000.0|100.0,Read,Measures how sure you are. Reacts to hesitation in your movement.,,,false
+thought_world__The_Agreeable_Wall,thought_world,The Agreeable Wall,2400.0|600.0|300.0,Push,Moves if two players push it. Refuses to move for one.,,,true
+thought_world__Memory_Pedestal,thought_world,Memory Pedestal,-2600.0|-800.0|100.0,Place artifact,Puts an artifact's origin story into the sky for everyone to read.,,,true
+thought_world__The_Quiet_Question,thought_world,The Quiet Question,0.0|2400.0|120.0,Answer,Asks one thing. Remembers the answer across sessions.,Answer the same way three visits running and it opens.,,false
+thought_world__Mind_Trip_Still,thought_world,Mind Trip Still,1200.0|-2600.0|100.0,Brew,Produces the Mind Trip potion. The world gets noticeably more honest.,,,false
+thought_world__The_Crowd,thought_world,The Crowd,-1400.0|2600.0|100.0,Join,Figures that copy whatever the most players are doing.,,,true
+the_dreaming__Freestanding_Doors,the_dreaming,Freestanding Doors,600.0|-600.0|150.0,Open,Eighteen doors standing in open ground. Each leads to a different one of the others.,,The pairing reshuffles every time the reality reloads.,false
+the_dreaming__The_Bed_in_the_Field,the_dreaming,The Bed in the Field,-1200.0|-1000.0|60.0,Sleep,Sleeping here moves you to a different part of the reality. You do not choose which.,,,false
+the_dreaming__Upside_Down_Rain,the_dreaming,Upside-Down Rain,1400.0|800.0|0.0,Stand in it,Falls upward. Soaks you anyway.,,,false
+the_dreaming__The_Teacher,the_dreaming,The Teacher,-2000.0|600.0|170.0,Talk,Asks about an exam you have not studied for. Will not be reasoned with.,,,false
+the_dreaming__Melting_Staircase,the_dreaming,Melting Staircase,2200.0|-1400.0|400.0,Climb,Softens under weight. Two players are too many.,,,true
+the_dreaming__The_Phone_That_Rings_Backwards,the_dreaming,The Phone That Rings Backwards,-800.0|-2200.0|120.0,Answer,"You speak first, then it rings.",,,false
+the_dreaming__Familiar_Room,the_dreaming,Familiar Room,3000.0|1800.0|150.0,Enter,"It is your trailer, wrong in three details.",Finding all three details unlocks a trailer decor set.,,false
+the_dreaming__The_Long_Corridor,the_dreaming,The Long Corridor,-3000.0|2200.0|150.0,Walk,Gets longer the faster you run down it.,,,false
+the_dreaming__Mask_Rack,the_dreaming,Mask Rack,400.0|2800.0|140.0,Wear,Wearing one changes how NPCs across the reality address you.,,,false
+the_dreaming__The_Waking_Bell,the_dreaming,The Waking Bell,0.0|-3400.0|200.0,Ring,"Ejects you home immediately, gently. The only polite exit in the multiverse.",,,false
+the_wasteland__The_Last_Radio_Tower,the_wasteland,The Last Radio Tower,2000.0|-3000.0|1800.0,Climb / tune,"Broadcasts a loop. The loop has a gap in it, and the gap is a message.",,,false
+the_wasteland__Fuel_Cache,the_wasteland,Fuel Cache,-1600.0|-1200.0|80.0,Siphon,Vehicle fuel. Guarded by something that was not always hostile.,,,false
+the_wasteland__Scrap_Press,the_wasteland,Scrap Press,1200.0|1400.0|150.0,Operate,Turns junk into crafting materials (Part II 37).,,,false
+the_wasteland__The_Bunker_Door,the_wasteland,The Bunker Door,-2800.0|2000.0|100.0,Open,Needs two hands on two wheels twelve metres apart.,,,true
+the_wasteland__Family_Photo,the_wasteland,Family Photo,800.0|-2200.0|60.0,Take,An artifact worth nothing and everything.,,,false
+the_wasteland__Rust_Choir,the_wasteland,Rust Choir,3400.0|800.0|300.0,Listen,Wind through wrecks. It is playing a song someone wrote.,,,false
+the_wasteland__The_Trading_Post,the_wasteland,The Trading Post,-600.0|3400.0|120.0,Trade,Player bartering hub for this reality (Part II 39).,,,true
+the_wasteland__Nano_Drone_Wreck,the_wasteland,Nano Drone Wreck,4000.0|-2400.0|100.0,Salvage,Yields the Nano Drone (Technology class).,,,false
+the_wasteland__The_Rift,the_wasteland,The Rift,0.0|-4600.0|400.0,Approach,"World event anchor: defeat the Rift Guardian, collect 5 Energy Cores.",,,true
+the_wasteland__Boneyard_Sign,the_wasteland,Boneyard Sign,-4200.0|-600.0|200.0,Read,Names every player who died in this reality this week.,,,true
+the_wasteland__Working_Streetlight,the_wasteland,Working Streetlight,1600.0|4000.0|400.0,Stand under,The only one still lit for a hundred kilometres. Full health regen.,,,false
+pet_sanctuary__The_Runed_Doorway,pet_sanctuary,The Runed Doorway,0.0|-200.0|180.0,Enter,"The carved arch into the cottage. Warm light, a fire going.",,,false
+pet_sanctuary__The_Fireplace,pet_sanctuary,The Fireplace,0.0|-800.0|80.0,Sit,Sitting here with another player starts a slow conversation prompt.,,,true
+pet_sanctuary__Sleeping_Cat,pet_sanctuary,Sleeping Cat,-250.0|-700.0|50.0,Pet,Adoptable. Will judge your trailer decor.,,,false
+pet_sanctuary__The_Golden_Dog,pet_sanctuary,The Golden Dog,250.0|-500.0|40.0,Play fetch,Adoptable. Brings back things it should not have found.,,,false
+pet_sanctuary__Rabbit_Hollow,pet_sanctuary,Rabbit Hollow,-800.0|400.0|30.0,Wait,They come out if you stay still.,,,false
+pet_sanctuary__The_Adoption_Sign,pet_sanctuary,The Adoption Sign,600.0|200.0|100.0,Read,"Explains the companion system. One pet per trailer, more with expansions.",,,false
+pet_sanctuary__Feed_Bin,pet_sanctuary,Feed Bin,-600.0|-200.0|60.0,Fill bowl,Feeding another player's pet raises both of your reputations.,,,true
+pet_sanctuary__The_Stream,pet_sanctuary,The Stream,2000.0|-0.0|0.0,Follow,Leads out of the sanctuary and does not come back.,,,false
+pet_sanctuary__Carved_Bench,pet_sanctuary,Carved Bench,-1000.0|-800.0|50.0,Sit,Names carved into it. All of them are players who have been here.,,,false
+pet_sanctuary__The_Lantern_Path,pet_sanctuary,The Lantern Path,400.0|1000.0|80.0,Light,Light every lantern on the path and something arrives at the cottage.,It only works at the sanctuary's dusk.,,false
+pet_sanctuary__Companion_Drone_Nest,pet_sanctuary,Companion Drone Nest,1200.0|-1200.0|120.0,Approach,Where the shoulder drone from the portal-network art is met.,,,false
+bio_metropolis__The_World_Tree_Lift,bio_metropolis,The World-Tree Lift,0.0|-1000.0|200.0,Ride,A living lift. It asks where you are going and sometimes disagrees.,,,false
+bio_metropolis__Root_Market,bio_metropolis,Root Market,-1400.0|-1600.0|120.0,Browse,Shop stalls grown into the roots (Part II 38).,,,true
+bio_metropolis__Grafting_Bench,bio_metropolis,Grafting Bench,1000.0|1200.0|100.0,Graft,Combines two Organic weapons into one. Results are not always predictable.,,,false
+bio_metropolis__The_Pollen_Tram,bio_metropolis,The Pollen Tram,2400.0|-600.0|300.0,Board,"Traverses the canopy on a schedule the city sets, not you.",,,false
+bio_metropolis__Hive_Council,bio_metropolis,Hive Council,-2200.0|1800.0|200.0,Petition,NPC faction. They remember every interaction (GDD 18).,,,false
+bio_metropolis__The_Wound,bio_metropolis,The Wound,3200.0|-2200.0|600.0,Treat,A cut in the world-tree. Healing it changes the district's layout.,,,true
+bio_metropolis__Sap_Vault,bio_metropolis,Sap Vault,-3000.0|-1000.0|150.0,Open,Rare crafting materials behind a puzzle of growth cycles.,,,false
+bio_metropolis__Seedpod_Elevator_Shaft,bio_metropolis,Seedpod Elevator Shaft,1600.0|3000.0|100.0,Enter,Drops you to the roots. Coming back up is a separate problem.,,,false
+bio_metropolis__The_Key_of_Roots,bio_metropolis,The Key of Roots,-4000.0|3400.0|800.0,Take,One of three keys the CORE accepts (Part II 47).,Only forms after the Wound is healed.,,false
+bio_metropolis__Canopy_Bridge,bio_metropolis,Canopy Bridge,0.0|-4000.0|2600.0,Cross,"Grows across as you walk, retracts behind you.",,,false
+plasma_strait__The_Storm_Anchor,plasma_strait,The Storm Anchor,0.0|-1200.0|300.0,Deploy,Calms the lightning in a radius for ninety seconds. Everyone benefits.,,,true
+plasma_strait__Charged_Wreck,plasma_strait,Charged Wreck,-1600.0|-800.0|200.0,Ground it,Safe to loot only once the charge is bled off.,,,false
+plasma_strait__Lightning_Harp,plasma_strait,Lightning Harp,1400.0|1000.0|500.0,Play,Strikes tune themselves to what you play. Risky and worth it.,,,false
+plasma_strait__Salvage_Crane,plasma_strait,Salvage Crane,2600.0|-1800.0|800.0,Operate,"One player drives, one player spots.",,,true
+plasma_strait__The_Barometer,plasma_strait,The Barometer,-2400.0|1400.0|150.0,Read,Predicts the next storm surge accurately. Nobody trusts it.,,,false
+plasma_strait__Sound_Cannon_Wreck,plasma_strait,Sound Cannon Wreck,3400.0|2600.0|200.0,Salvage,Yields the Sound Cannon (Absurd class).,,,false
+plasma_strait__Faraday_Chapel,plasma_strait,Faraday Chapel,-3400.0|-2200.0|300.0,Shelter,The only guaranteed-safe structure. Fits four.,,,false
+plasma_strait__The_Strait_Crossing,plasma_strait,The Strait Crossing,0.0|3800.0|100.0,Cross,Passable for eleven seconds after each surge.,,,false
+plasma_strait__The_Key_of_Storms,plasma_strait,The Key of Storms,4200.0|-3600.0|600.0,Take,Second of the three CORE keys.,"Must be taken during a surge, not between them.",,false
+plasma_strait__Wreck_of_the_Ferry,plasma_strait,Wreck of the Ferry,-4400.0|400.0|400.0,Search,Passenger manifest. Some of the names are player names.,,,true
+ruins_labyrinth__The_Threshold_Stone,ruins_labyrinth,The Threshold Stone,0.0|6000.0|100.0,Read,Names everyone currently inside the maze.,,,true
+ruins_labyrinth__Moss_Map,ruins_labyrinth,Moss Map,-800.0|4800.0|140.0,Read,The moss grows in the shape of the maze. It is out of date.,,,false
+ruins_labyrinth__Wall_That_Listens,ruins_labyrinth,Wall That Listens,1200.0|3000.0|300.0,Speak,Say the right word and it steps aside. The word is elsewhere in the maze.,,,false
+ruins_labyrinth__The_Torch_Line,ruins_labyrinth,The Torch Line,-1400.0|1400.0|200.0,Light,Lit torches persist for other players for an hour.,,,true
+ruins_labyrinth__Offering_Bowl,ruins_labyrinth,Offering Bowl,0.0|-0.0|100.0,Offer,Give up an item; the maze simplifies for you. Give up an artifact; it opens.,,,false
+ruins_labyrinth__The_Repeating_Room,ruins_labyrinth,The Repeating Room,1600.0|-1600.0|150.0,Enter,The same room four times. One of them has an extra door.,,,false
+ruins_labyrinth__Buried_Bell,ruins_labyrinth,Buried Bell,-2200.0|-2200.0|50.0,Dig,Ringing it resets the maze layout for everyone in it.,,,true
+ruins_labyrinth__Paint_Blaster_Cache,ruins_labyrinth,Paint Blaster Cache,2800.0|600.0|100.0,Open,Yields the Paint Blaster (Art class). Paint marks walls permanently.,,,false
+ruins_labyrinth__The_Key_of_Stone,ruins_labyrinth,The Key of Stone,0.0|-3400.0|200.0,Take,"Third of the three CORE keys, at the maze's true centre.",The true centre is not the geometric centre.,,false
+ruins_labyrinth__Exit_That_Moves,ruins_labyrinth,Exit That Moves,3400.0|-3400.0|150.0,Leave,It is never where you left it.,,,false
+gravity_ring__Gravity_Dial,gravity_ring,Gravity Dial,0.0|-600.0|100.0,Turn,Sets local gravity between 0.1 and 2.0 for a whole ring segment.,,,true
+gravity_ring__The_Drop,gravity_ring,The Drop,-1200.0|-1200.0|0.0,Step off,Falls forever unless someone changes the dial while you are falling.,,,true
+gravity_ring__Anti_Grav_Boot_Locker,gravity_ring,Anti-Grav Boot Locker,1800.0|800.0|100.0,Open,Anti-Grav Boots — also the Gravity Arena minigame reward (Part II 41).,,,false
+gravity_ring__Orbital_Tram,gravity_ring,Orbital Tram,2600.0|-1400.0|200.0,Board,Circles the ring. Stops are on the outside of the ring.,,,false
+gravity_ring__The_Balance_Puzzle,gravity_ring,The Balance Puzzle,-2600.0|1600.0|400.0,Solve,"Two players on two plates, different masses, one bridge.",,,true
+gravity_ring__Fallen_Climber,gravity_ring,Fallen Climber,3200.0|2400.0|100.0,Search,Their log describes a segment that is not on any map.,,,false
+gravity_ring__Gravity_Gun_Vault,gravity_ring,Gravity Gun Vault,-3600.0|-2000.0|600.0,Open,Yields the Gravity Gun (Reality class).,,,false
+gravity_ring__The_Inverted_Town,gravity_ring,The Inverted Town,0.0|-4400.0|3000.0,Enter,Built on the underside. The residents consider you upside-down.,,,false
+gravity_ring__Ring_Fracture,gravity_ring,Ring Fracture,4400.0|-4000.0|800.0,Cross,A missing segment. Crossing it needs the dial and a running start.,,,false
+the_arcade__Racer_s_Edge_Cabinet,the_arcade,Racer's Edge Cabinet,-800.0|6000.0|100.0,Enter,Minigame: Urban Velocity. Reward: 'Neon Rider' bike skin. Leaderboard on the marquee.,,,false
+the_arcade__Vortex_Cabinet,the_arcade,Vortex Cabinet,800.0|4000.0|100.0,Enter,Minigame: our own 8-bit arena. Reward: Retro Artifact x1. All games original.,,,false
+the_arcade__Gravity_Arena_Cabinet,the_arcade,Gravity Arena Cabinet,-800.0|2000.0|100.0,Enter,"Minigame: Float Fights, zero-g combat. Reward: Anti-Grav Boots.",,,false
+the_arcade__Mystery_Vault_Cabinet,the_arcade,Mystery Vault Cabinet,800.0|-0.0|100.0,Enter,"Minigame: Decryptor 7, a cipher puzzle. Reward: holographic trailer decor.",,,false
+the_arcade__Deathtrack_Cabinet,the_arcade,Deathtrack Cabinet,-800.0|-2000.0|100.0,Enter,Minigame: Neon Deathtrack race variant. Reward: vehicle cosmetics.,,,false
+the_arcade__Crawl_Cabinet,the_arcade,Crawl Cabinet,800.0|-4000.0|100.0,Enter,Minigame: top-down co-op dungeon crawl. Reward: consumables and materials.,,,true
+the_arcade__The_High_Score_Board,the_arcade,The High Score Board,0.0|-6000.0|400.0,Read,"Every minigame's top name and score, updated live.",,,true
+the_arcade__Token_Machine,the_arcade,Token Machine,-1200.0|-5000.0|100.0,Exchange,Credits to event Tokens (Part II 38).,,,false
+the_arcade__The_Cabinet_Nobody_Plays,the_arcade,The Cabinet Nobody Plays,1200.0|8000.0|100.0,Enter,"Unlabelled, unlit, in the corner.",Plays a game about a trailer and a machine. It knows your play history.,,false
+the_arcade__Prize_Counter,the_arcade,Prize Counter,0.0|-7400.0|120.0,Redeem,Tickets for trailer decor and emotes.,,,true
+the_arcade__Two_Player_Cabinet,the_arcade,Two-Player Cabinet,-1400.0|-800.0|100.0,Enter,Refuses to start with one player. Best rewards in the street.,,,true
+the_arcade__Battle_Arena_Gate,the_arcade,Battle Arena Gate,2000.0|1000.0|200.0,Enter,"The street's one PvP zone. Opt-in, nothing at stake but the leaderboard.",,,false
+crystal_shatter__The_Ringing_Floor,crystal_shatter,The Ringing Floor,0.0|-600.0|10.0,Walk,Each step is a note. Other players hear your route as music.,,,true
+crystal_shatter__Fracture_Line,crystal_shatter,Fracture Line,-1400.0|-1000.0|50.0,Strike,Breaking it opens a path and closes another.,,,false
+crystal_shatter__The_Tuning_Shard,crystal_shatter,The Tuning Shard,1200.0|1200.0|200.0,Take,"Held, it makes nearby crystal safe to touch.",,,false
+crystal_shatter__Prism_Lock,crystal_shatter,Prism Lock,2200.0|-800.0|200.0,Align,"Three beams, three players, one door.",,,true
+crystal_shatter__The_Frozen_Explorer,crystal_shatter,The Frozen Explorer,-2600.0|1800.0|150.0,Free,An NPC caught mid-step. Freeing them is not obviously a good idea.,,,false
+crystal_shatter__Echo_Cavern,crystal_shatter,Echo Cavern,3000.0|-2000.0|100.0,Shout,Repeats everything said in it for the next player who enters.,,,true
+crystal_shatter__Shard_Vein,crystal_shatter,Shard Vein,-3400.0|-2400.0|200.0,Mine,The reality's Shard currency source (Part II 38).,,,false
+crystal_shatter__The_Unbroken_Pane,crystal_shatter,The Unbroken Pane,0.0|-3800.0|600.0,Look through,Shows the Portal Hub from the inside of P1. Someone is standing there.,,,false
+portal_glade__The_Standing_Portals,portal_glade,The Standing Portals,0.0|-1800.0|160.0,Enter,Six frames with nothing holding them up. Each one is lit a different colour.,,,false
+portal_glade__The_Campfire,portal_glade,The Campfire,0.0|-0.0|40.0,Sit,The community panel's fire. Players sitting here hear each other clearly regardless of proximity falloff — the one place voice does not fade.,,,true
+portal_glade__The_Unlit_Frame,portal_glade,The Unlit Frame,-900.0|1560.0|160.0,Examine,"A seventh frame, dark.",Lights only when six different players have used the other six today.,,false
+portal_glade__Trail_Markers,portal_glade,Trail Markers,1200.0|800.0|80.0,Read,Stones stacked by players. Each stack names a reality and a warning.,,,true
+portal_glade__The_Old_Bench,portal_glade,The Old Bench,-1400.0|-600.0|50.0,Sit,Facing the portals. Worn smooth in two places.,,,false
+portal_glade__Moss_Clock,portal_glade,Moss Clock,800.0|-1400.0|100.0,Read,Tells the time in whichever reality you last visited.,,,false
+portal_glade__The_Returning_Path,portal_glade,The Returning Path,0.0|3000.0|20.0,Walk,Leads back to your trailer on foot. Takes four minutes. Worth doing once.,,,false
+portal_glade__Lantern_Tree,portal_glade,Lantern Tree,1800.0|-1800.0|400.0,Light,Hang a lantern to leave a message for whoever arrives next.,,,true
+portal_glade__The_Listening_Stone,portal_glade,The Listening Stone,-2000.0|2000.0|90.0,Touch,Plays back the last thing said in this glade.,,Occasionally plays something said here a very long time ago.,false
+the_cascades__The_Terrace,the_cascades,The Terrace,0.0|-0.0|200.0,Rest,"Parasols, tables, a view over the falls. Players idle here between runs.",,,true
+the_cascades__Waterfall_Curtain,the_cascades,Waterfall Curtain,5200.0|-3000.0|600.0,Walk through,There is a room behind it. There is a room behind three of the four.,,,false
+the_cascades__The_Ascending_Stones,the_cascades,The Ascending Stones,-1800.0|-2200.0|400.0,Climb,Stepping stones up to the floating islands. They sink if you hesitate.,,,false
+the_cascades__Mist_Ruin,the_cascades,Mist Ruin,-4000.0|1800.0|300.0,Explore,A building the mist keeps hiding. Its floor plan is not consistent.,,,false
+the_cascades__The_Parasol_That_Is_Not_One,the_cascades,The Parasol That Is Not One,600.0|-400.0|260.0,Open,Opens into a chute down to a lower valley.,,,false
+the_cascades__Secret_Portal,the_cascades,Secret Portal,3400.0|4400.0|200.0,Enter,A portal in a world that is not a hub. Leads to one random reality.,It remembers where it sent you and never repeats until it has sent you everywhere.,,false
+the_cascades__The_Island_Bell,the_cascades,The Island Bell,1000.0|-4600.0|4200.0,Ring,Rings across the whole valley. Every player hears it and knows roughly where.,,,false
+the_cascades__Field_Notes,the_cascades,Field Notes,-800.0|3400.0|100.0,Read,Someone catalogued this place. Their last entry is unfinished.,,,true
+the_cascades__The_Long_Rope_Bridge,the_cascades,The Long Rope Bridge,2400.0|-1400.0|3000.0,Cross,Two players' weight makes it stable. One player's makes it swing.,,,true
+the_cascades__Creature_Nest,the_cascades,Creature Nest,-5200.0|-4000.0|800.0,Approach,Not hostile. Curious. Follows you for a while and then does not.,,,false
+the_cascades__The_Overlook,the_cascades,The Overlook,0.0|-6200.0|2600.0,Stand,The postcard shot. Emote here and it is worth extra reputation.,,,false
+the_bazaar__The_Trade_Ring,the_bazaar,The Trade Ring,0.0|-0.0|100.0,Trade,"The bartering floor. Two-sided offers, both confirm (Part II 39).",,,true
+the_bazaar__Appraiser_s_Stall,the_bazaar,Appraiser's Stall,-800.0|1200.0|140.0,Appraise,Tells you what an artifact is actually worth. Charges for the opinion.,,,false
+the_bazaar__The_Fence,the_bazaar,The Fence,800.0|-1200.0|140.0,Sell,"Buys anything, asks nothing, pays badly.",,,false
+the_bazaar__Currency_Exchange,the_bazaar,Currency Exchange,-800.0|-2000.0|140.0,Exchange,"Credits, Shards and Tokens (Part II 38). Rates move with player activity.",,,false
+the_bazaar__Furniture_Row,the_bazaar,Furniture Row,800.0|2800.0|140.0,Browse,Trailer decor. The healthiest thing in the shop.,,,false
+the_bazaar__The_Auction_Board,the_bazaar,The Auction Board,0.0|-3000.0|220.0,Bid,Player-listed rare items on a timer.,,,true
+the_bazaar__Weapon_Tinker,the_bazaar,Weapon Tinker,-800.0|-3600.0|140.0,Upgrade,Applies upgrade paths to weapons you already own (Part II 37).,,,false
+the_bazaar__Potion_Row,the_bazaar,Potion Row,800.0|-4400.0|140.0,Buy,"All five potions, marked up. Cheaper to brew them yourself.",,,false
+the_bazaar__The_Empty_Stall,the_bazaar,The Empty Stall,-800.0|-5200.0|140.0,Claim,Any player can claim it for an hour and sell their own finds from it.,,,true
+the_bazaar__Rumour_Table,the_bazaar,Rumour Table,0.0|5000.0|100.0,Listen,NPCs repeat things players have actually done in other realities.,,,true
+the_bazaar__The_Locked_Case,the_bazaar,The Locked Case,1200.0|-6000.0|120.0,Examine,Contains something nobody in the market will name.,Opens to whoever brings the Eye of Reality here. Do not sell it.,,false
+the_bazaar__Lantern_Line,the_bazaar,Lantern Line,0.0|-6800.0|500.0,Light,Lighting the whole street opens the night market.,,,false

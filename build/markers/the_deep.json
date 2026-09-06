@@ -1,0 +1,160 @@
+{
+  "world": "the_deep",
+  "display_name": "The Deep",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        600.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Lantern_Shoal",
+      "kind": "Interactable",
+      "location_uu": [
+        1000.0,
+        -1400.0,
+        800.0
+      ],
+      "note": "A shoal of lights that leads somewhere if you keep up. It does not wait.",
+      "coop": false
+    },
+    {
+      "name": "INT_Pressure_Door",
+      "kind": "Interactable",
+      "location_uu": [
+        -1400.0,
+        -900.0,
+        200.0
+      ],
+      "note": "Takes two players turning opposite wheels at once.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Singing_Coral",
+      "kind": "Interactable",
+      "location_uu": [
+        700.0,
+        1200.0,
+        300.0
+      ],
+      "note": "Each branch is a note. Play the right five and something opens below.",
+      "coop": false
+    },
+    {
+      "name": "INT_Air_Pocket_Chapel",
+      "kind": "Interactable",
+      "location_uu": [
+        -2200.0,
+        1800.0,
+        500.0
+      ],
+      "note": "A dry room at the bottom of the sea. Someone has been living here.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Anchor",
+      "kind": "Interactable",
+      "location_uu": [
+        2600.0,
+        -400.0,
+        100.0
+      ],
+      "note": "Attached to something that is not a boat.",
+      "coop": false
+    },
+    {
+      "name": "INT_Message_Bottles",
+      "kind": "Interactable",
+      "location_uu": [
+        400.0,
+        -2200.0,
+        150.0
+      ],
+      "note": "Notes from players who drowned here.",
+      "coop": true
+    },
+    {
+      "name": "INT_Bioluminescent_Switchboard",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        400.0,
+        200.0
+      ],
+      "note": "Rerouting the light changes which corridors are safe.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Whale_Skeleton",
+      "kind": "Interactable",
+      "location_uu": [
+        3800.0,
+        3000.0,
+        600.0
+      ],
+      "note": "Something is nesting in it. It is friendly, mostly.",
+      "coop": false
+    },
+    {
+      "name": "INT_Tide_Organ",
+      "kind": "Interactable",
+      "location_uu": [
+        -3400.0,
+        -2600.0,
+        400.0
+      ],
+      "note": "The current plays it. You can change the tuning and the current follows.",
+      "coop": false
+    },
+    {
+      "name": "INT_Sunken_Vending_Machine",
+      "kind": "Interactable",
+      "location_uu": [
+        1600.0,
+        2600.0,
+        100.0
+      ],
+      "note": "Still works. Still takes Credits. Dispenses dry snacks.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Drowned_Museum",
+      "kind": "Interactable",
+      "location_uu": [
+        -4000.0,
+        800.0,
+        300.0
+      ],
+      "note": "Somebody else's trophy room, flooded. Their artifacts are still on the pedestals.",
+      "coop": false
+    },
+    {
+      "name": "INT_Organic_Weapon_Pod",
+      "kind": "Interactable",
+      "location_uu": [
+        3000.0,
+        -3400.0,
+        400.0
+      ],
+      "note": "Contains the Living Blade (Organic class).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Depth_Marker",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        4400.0,
+        2000.0
+      ],
+      "note": "Counts down as you descend. Below zero it keeps counting.",
+      "coop": false
+    }
+  ]
+}

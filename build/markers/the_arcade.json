@@ -1,0 +1,149 @@
+{
+  "world": "the_arcade",
+  "display_name": "The Arcade",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        10000.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_Racer_s_Edge_Cabinet",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        6000.0,
+        100.0
+      ],
+      "note": "Minigame: Urban Velocity. Reward: 'Neon Rider' bike skin. Leaderboard on the marquee.",
+      "coop": false
+    },
+    {
+      "name": "INT_Vortex_Cabinet",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        4000.0,
+        100.0
+      ],
+      "note": "Minigame: our own 8-bit arena. Reward: Retro Artifact x1. All games original.",
+      "coop": false
+    },
+    {
+      "name": "INT_Gravity_Arena_Cabinet",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        2000.0,
+        100.0
+      ],
+      "note": "Minigame: Float Fights, zero-g combat. Reward: Anti-Grav Boots.",
+      "coop": false
+    },
+    {
+      "name": "INT_Mystery_Vault_Cabinet",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        -0.0,
+        100.0
+      ],
+      "note": "Minigame: Decryptor 7, a cipher puzzle. Reward: holographic trailer decor.",
+      "coop": false
+    },
+    {
+      "name": "INT_Deathtrack_Cabinet",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        -2000.0,
+        100.0
+      ],
+      "note": "Minigame: Neon Deathtrack race variant. Reward: vehicle cosmetics.",
+      "coop": false
+    },
+    {
+      "name": "INT_Crawl_Cabinet",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        -4000.0,
+        100.0
+      ],
+      "note": "Minigame: top-down co-op dungeon crawl. Reward: consumables and materials.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_High_Score_Board",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -6000.0,
+        400.0
+      ],
+      "note": "Every minigame's top name and score, updated live.",
+      "coop": true
+    },
+    {
+      "name": "INT_Token_Machine",
+      "kind": "Interactable",
+      "location_uu": [
+        -1200.0,
+        -5000.0,
+        100.0
+      ],
+      "note": "Credits to event Tokens (Part II 38).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Cabinet_Nobody_Plays",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        8000.0,
+        100.0
+      ],
+      "note": "Unlabelled, unlit, in the corner.",
+      "coop": false
+    },
+    {
+      "name": "INT_Prize_Counter",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -7400.0,
+        120.0
+      ],
+      "note": "Tickets for trailer decor and emotes.",
+      "coop": true
+    },
+    {
+      "name": "INT_Two_Player_Cabinet",
+      "kind": "Interactable",
+      "location_uu": [
+        -1400.0,
+        -800.0,
+        100.0
+      ],
+      "note": "Refuses to start with one player. Best rewards in the street.",
+      "coop": true
+    },
+    {
+      "name": "INT_Battle_Arena_Gate",
+      "kind": "Interactable",
+      "location_uu": [
+        2000.0,
+        1000.0,
+        200.0
+      ],
+      "note": "The street's one PvP zone. Opt-in, nothing at stake but the leaderboard.",
+      "coop": false
+    }
+  ]
+}

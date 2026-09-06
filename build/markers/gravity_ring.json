@@ -1,0 +1,116 @@
+{
+  "world": "gravity_ring",
+  "display_name": "Gravity-Ring",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_Gravity_Dial",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -600.0,
+        100.0
+      ],
+      "note": "Sets local gravity between 0.1 and 2.0 for a whole ring segment.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Drop",
+      "kind": "Interactable",
+      "location_uu": [
+        -1200.0,
+        -1200.0,
+        0.0
+      ],
+      "note": "Falls forever unless someone changes the dial while you are falling.",
+      "coop": true
+    },
+    {
+      "name": "INT_Anti_Grav_Boot_Locker",
+      "kind": "Interactable",
+      "location_uu": [
+        1800.0,
+        800.0,
+        100.0
+      ],
+      "note": "Anti-Grav Boots \u2014 also the Gravity Arena minigame reward (Part II 41).",
+      "coop": false
+    },
+    {
+      "name": "INT_Orbital_Tram",
+      "kind": "Interactable",
+      "location_uu": [
+        2600.0,
+        -1400.0,
+        200.0
+      ],
+      "note": "Circles the ring. Stops are on the outside of the ring.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Balance_Puzzle",
+      "kind": "Interactable",
+      "location_uu": [
+        -2600.0,
+        1600.0,
+        400.0
+      ],
+      "note": "Two players on two plates, different masses, one bridge.",
+      "coop": true
+    },
+    {
+      "name": "INT_Fallen_Climber",
+      "kind": "Interactable",
+      "location_uu": [
+        3200.0,
+        2400.0,
+        100.0
+      ],
+      "note": "Their log describes a segment that is not on any map.",
+      "coop": false
+    },
+    {
+      "name": "INT_Gravity_Gun_Vault",
+      "kind": "Interactable",
+      "location_uu": [
+        -3600.0,
+        -2000.0,
+        600.0
+      ],
+      "note": "Yields the Gravity Gun (Reality class).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Inverted_Town",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -4400.0,
+        3000.0
+      ],
+      "note": "Built on the underside. The residents consider you upside-down.",
+      "coop": false
+    },
+    {
+      "name": "INT_Ring_Fracture",
+      "kind": "Interactable",
+      "location_uu": [
+        4400.0,
+        -4000.0,
+        800.0
+      ],
+      "note": "A missing segment. Crossing it needs the dial and a running start.",
+      "coop": false
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "world": "thought_world",
+  "display_name": "The Thought World",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_First_Door",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -800.0,
+        120.0
+      ],
+      "note": "Leads wherever you were expecting it to lead.",
+      "coop": false
+    },
+    {
+      "name": "INT_Mirror_of_Habits",
+      "kind": "Interactable",
+      "location_uu": [
+        -1000.0,
+        -400.0,
+        160.0
+      ],
+      "note": "Shows how you have been playing. Not always flatteringly.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Path_That_Forms",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        1000.0,
+        10.0
+      ],
+      "note": "Ground appears one step ahead. Stop and it stops.",
+      "coop": false
+    },
+    {
+      "name": "INT_Room_of_Loud_Thinking",
+      "kind": "Interactable",
+      "location_uu": [
+        -1800.0,
+        1400.0,
+        150.0
+      ],
+      "note": "Your proximity voice is broadcast to the whole reality while inside.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Contradiction",
+      "kind": "Interactable",
+      "location_uu": [
+        1600.0,
+        -1200.0,
+        200.0
+      ],
+      "note": "A staircase going up and down at once. Both are true.",
+      "coop": false
+    },
+    {
+      "name": "INT_Certainty_Meter",
+      "kind": "Interactable",
+      "location_uu": [
+        -400.0,
+        -2000.0,
+        100.0
+      ],
+      "note": "Measures how sure you are. Reacts to hesitation in your movement.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Agreeable_Wall",
+      "kind": "Interactable",
+      "location_uu": [
+        2400.0,
+        600.0,
+        300.0
+      ],
+      "note": "Moves if two players push it. Refuses to move for one.",
+      "coop": true
+    },
+    {
+      "name": "INT_Memory_Pedestal",
+      "kind": "Interactable",
+      "location_uu": [
+        -2600.0,
+        -800.0,
+        100.0
+      ],
+      "note": "Puts an artifact's origin story into the sky for everyone to read.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Quiet_Question",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        2400.0,
+        120.0
+      ],
+      "note": "Asks one thing. Remembers the answer across sessions.",
+      "coop": false
+    },
+    {
+      "name": "INT_Mind_Trip_Still",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        -2600.0,
+        100.0
+      ],
+      "note": "Produces the Mind Trip potion. The world gets noticeably more honest.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Crowd",
+      "kind": "Interactable",
+      "location_uu": [
+        -1400.0,
+        2600.0,
+        100.0
+      ],
+      "note": "Figures that copy whatever the most players are doing.",
+      "coop": true
+    }
+  ]
+}

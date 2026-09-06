@@ -1,0 +1,149 @@
+{
+  "world": "the_void",
+  "display_name": "The Void",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Handhold",
+      "kind": "Interactable",
+      "location_uu": [
+        300.0,
+        -500.0,
+        100.0
+      ],
+      "note": "The only fixed point. Let go and you drift.",
+      "coop": false
+    },
+    {
+      "name": "INT_Gravity_Well_Switch",
+      "kind": "Interactable",
+      "location_uu": [
+        -1200.0,
+        -800.0,
+        400.0
+      ],
+      "note": "Reverses which way is down for everyone in the region.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Long_Rope",
+      "kind": "Interactable",
+      "location_uu": [
+        1800.0,
+        900.0,
+        1200.0
+      ],
+      "note": "Tied at one end. The other end is not visible.",
+      "coop": false
+    },
+    {
+      "name": "INT_Starlight_Forge",
+      "kind": "Interactable",
+      "location_uu": [
+        -2000.0,
+        1600.0,
+        2200.0
+      ],
+      "note": "Upgrades Cosmic weapons. Consumes Shards.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Slow_Clock",
+      "kind": "Interactable",
+      "location_uu": [
+        900.0,
+        -2000.0,
+        -800.0
+      ],
+      "note": "Time near it runs at a third speed. Useful in a fight, awkward in a conversation.",
+      "coop": false
+    },
+    {
+      "name": "INT_Debris_of_a_Trailer",
+      "kind": "Interactable",
+      "location_uu": [
+        3000.0,
+        -1400.0,
+        3000.0
+      ],
+      "note": "Someone else's home, in pieces.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Echo",
+      "kind": "Interactable",
+      "location_uu": [
+        -2600.0,
+        -2200.0,
+        -1400.0
+      ],
+      "note": "Repeats what you said, correctly, in a voice that is not yours.",
+      "coop": false
+    },
+    {
+      "name": "INT_Star_Cannon_Cradle",
+      "kind": "Interactable",
+      "location_uu": [
+        2400.0,
+        2800.0,
+        1800.0
+      ],
+      "note": "Yields the Star Cannon (Cosmic class).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Tether_Ring",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        3000.0,
+        600.0
+      ],
+      "note": "Two players tethered can reach islands neither could alone.",
+      "coop": true
+    },
+    {
+      "name": "INT_Black_Marble",
+      "kind": "Interactable",
+      "location_uu": [
+        -3800.0,
+        -0.0,
+        4000.0
+      ],
+      "note": "Weighs more than the island it is sitting on.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Silent_Bell",
+      "kind": "Interactable",
+      "location_uu": [
+        1400.0,
+        -3600.0,
+        -2000.0
+      ],
+      "note": "No sound. Everyone in the reality feels it.",
+      "coop": false
+    },
+    {
+      "name": "INT_Time_Shard_Rift",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        4000.0,
+        2600.0
+      ],
+      "note": "Yields the Time Shard (Reality class). Costs something.",
+      "coop": false
+    }
+  ]
+}

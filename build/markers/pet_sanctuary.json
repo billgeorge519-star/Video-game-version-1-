@@ -1,0 +1,138 @@
+{
+  "world": "pet_sanctuary",
+  "display_name": "The Pet Sanctuary",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        1400.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Runed_Doorway",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -200.0,
+        180.0
+      ],
+      "note": "The carved arch into the cottage. Warm light, a fire going.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Fireplace",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -800.0,
+        80.0
+      ],
+      "note": "Sitting here with another player starts a slow conversation prompt.",
+      "coop": true
+    },
+    {
+      "name": "INT_Sleeping_Cat",
+      "kind": "Interactable",
+      "location_uu": [
+        -250.0,
+        -700.0,
+        50.0
+      ],
+      "note": "Adoptable. Will judge your trailer decor.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Golden_Dog",
+      "kind": "Interactable",
+      "location_uu": [
+        250.0,
+        -500.0,
+        40.0
+      ],
+      "note": "Adoptable. Brings back things it should not have found.",
+      "coop": false
+    },
+    {
+      "name": "INT_Rabbit_Hollow",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        400.0,
+        30.0
+      ],
+      "note": "They come out if you stay still.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Adoption_Sign",
+      "kind": "Interactable",
+      "location_uu": [
+        600.0,
+        200.0,
+        100.0
+      ],
+      "note": "Explains the companion system. One pet per trailer, more with expansions.",
+      "coop": false
+    },
+    {
+      "name": "INT_Feed_Bin",
+      "kind": "Interactable",
+      "location_uu": [
+        -600.0,
+        -200.0,
+        60.0
+      ],
+      "note": "Feeding another player's pet raises both of your reputations.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Stream",
+      "kind": "Interactable",
+      "location_uu": [
+        2000.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Leads out of the sanctuary and does not come back.",
+      "coop": false
+    },
+    {
+      "name": "INT_Carved_Bench",
+      "kind": "Interactable",
+      "location_uu": [
+        -1000.0,
+        -800.0,
+        50.0
+      ],
+      "note": "Names carved into it. All of them are players who have been here.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Lantern_Path",
+      "kind": "Interactable",
+      "location_uu": [
+        400.0,
+        1000.0,
+        80.0
+      ],
+      "note": "Light every lantern on the path and something arrives at the cottage.",
+      "coop": false
+    },
+    {
+      "name": "INT_Companion_Drone_Nest",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        -1200.0,
+        120.0
+      ],
+      "note": "Where the shoulder drone from the portal-network art is met.",
+      "coop": false
+    }
+  ]
+}

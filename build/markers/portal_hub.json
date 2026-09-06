@@ -1,0 +1,171 @@
+{
+  "world": "portal_hub",
+  "display_name": "The Portal Hub",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        6000.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_Portal_P1___Crystalline",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -4000.0,
+        200.0
+      ],
+      "note": "Gateway to the shattered-crystal world. Tag strip shows biome, hazard, activity.",
+      "coop": false
+    },
+    {
+      "name": "INT_Portal_P2___Bio_Metropolis",
+      "kind": "Interactable",
+      "location_uu": [
+        -3800.0,
+        -1240.0,
+        200.0
+      ],
+      "note": "Gateway to the grown city.",
+      "coop": false
+    },
+    {
+      "name": "INT_Portal_P3___Plasma_Strait",
+      "kind": "Interactable",
+      "location_uu": [
+        -2350.0,
+        3240.0,
+        200.0
+      ],
+      "note": "Gateway to the storm and the wreck fields.",
+      "coop": false
+    },
+    {
+      "name": "INT_Portal_P4___Ruins_Labyrinth",
+      "kind": "Interactable",
+      "location_uu": [
+        2350.0,
+        3240.0,
+        200.0
+      ],
+      "note": "Gateway to the overgrown maze.",
+      "coop": false
+    },
+    {
+      "name": "INT_Portal_P5___Gravity_Ring",
+      "kind": "Interactable",
+      "location_uu": [
+        3800.0,
+        -1240.0,
+        200.0
+      ],
+      "note": "Gateway to the ringed world.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_CORE",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -0.0,
+        200.0
+      ],
+      "note": "The hub's power source and its central mystery. Anchor for the three-key hunt.",
+      "coop": true
+    },
+    {
+      "name": "INT_Tag_Reader",
+      "kind": "Interactable",
+      "location_uu": [
+        600.0,
+        -800.0,
+        120.0
+      ],
+      "note": "Explains what a portal's icon strip means before you commit.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Noticeboard",
+      "kind": "Interactable",
+      "location_uu": [
+        -600.0,
+        -800.0,
+        140.0
+      ],
+      "note": "Player-left notes about what is through each portal.",
+      "coop": true
+    },
+    {
+      "name": "INT_Bartering_Post",
+      "kind": "Interactable",
+      "location_uu": [
+        1000.0,
+        600.0,
+        100.0
+      ],
+      "note": "Opens the two-sided trade window with a nearby player (Part II 39).",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Vending_Machine",
+      "kind": "Interactable",
+      "location_uu": [
+        -1000.0,
+        600.0,
+        100.0
+      ],
+      "note": "Dispenses an object from a reality you have not visited. Never the same twice.",
+      "coop": false
+    },
+    {
+      "name": "INT_Minigame_Arch",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -2000.0,
+        200.0
+      ],
+      "note": "Leads to the minigame portals (Part II 41).",
+      "coop": false
+    },
+    {
+      "name": "INT_Vehicle_Rail",
+      "kind": "Interactable",
+      "location_uu": [
+        1600.0,
+        -0.0,
+        50.0
+      ],
+      "note": "Spawns your stored vehicle for hub traversal.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Bench_of_Agreement",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        1400.0,
+        50.0
+      ],
+      "note": "Two players sitting at once opens something under the gantry.",
+      "coop": true
+    },
+    {
+      "name": "INT_Broken_Portal_P0",
+      "kind": "Interactable",
+      "location_uu": [
+        -3000.0,
+        -3000.0,
+        200.0
+      ],
+      "note": "Dead frame, no light.",
+      "coop": false
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "world": "trailer",
+  "display_name": "Your Trailer",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -360.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Reality_Machine",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -360.0,
+        110.0
+      ],
+      "note": "Opens character -> reality -> experience selection. The heart of the game.",
+      "coop": false
+    },
+    {
+      "name": "INT_Artifact_Pedestal_A",
+      "kind": "Interactable",
+      "location_uu": [
+        -110.0,
+        -140.0,
+        50.0
+      ],
+      "note": "Displays one artifact; visitors can examine it.",
+      "coop": false
+    },
+    {
+      "name": "INT_Artifact_Pedestal_B",
+      "kind": "Interactable",
+      "location_uu": [
+        -110.0,
+        -20.0,
+        50.0
+      ],
+      "note": "Second display slot.",
+      "coop": false
+    },
+    {
+      "name": "INT_Artifact_Pedestal_C",
+      "kind": "Interactable",
+      "location_uu": [
+        -110.0,
+        100.0,
+        50.0
+      ],
+      "note": "Third display slot.",
+      "coop": false
+    },
+    {
+      "name": "INT_Weapon_Wall",
+      "kind": "Interactable",
+      "location_uu": [
+        135.0,
+        -60.0,
+        140.0
+      ],
+      "note": "Mounts up to six weapons. Lobby-only weapons still fire in here (GDD 4).",
+      "coop": false
+    },
+    {
+      "name": "INT_Workbench",
+      "kind": "Interactable",
+      "location_uu": [
+        120.0,
+        220.0,
+        90.0
+      ],
+      "note": "Crafting and weapon upgrades (Part II 37).",
+      "coop": false
+    },
+    {
+      "name": "INT_Wardrobe",
+      "kind": "Interactable",
+      "location_uu": [
+        -120.0,
+        260.0,
+        100.0
+      ],
+      "note": "Character creator access without re-entering the Machine.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Fridge",
+      "kind": "Interactable",
+      "location_uu": [
+        125.0,
+        -240.0,
+        80.0
+      ],
+      "note": "Ordinary fridge. Ordinary food.",
+      "coop": false
+    },
+    {
+      "name": "INT_Trophy_Shelf",
+      "kind": "Interactable",
+      "location_uu": [
+        -135.0,
+        -240.0,
+        150.0
+      ],
+      "note": "Minigame trophies and event rewards.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Radio",
+      "kind": "Interactable",
+      "location_uu": [
+        130.0,
+        -140.0,
+        110.0
+      ],
+      "note": "Plays reality-specific stations.",
+      "coop": false
+    },
+    {
+      "name": "INT_Pet_Bed",
+      "kind": "Interactable",
+      "location_uu": [
+        90.0,
+        80.0,
+        15.0
+      ],
+      "note": "Where an adopted companion lives (Part II 42). Visitors can pet it.",
+      "coop": true
+    },
+    {
+      "name": "INT_Guest_Book",
+      "kind": "Interactable",
+      "location_uu": [
+        -20.0,
+        -300.0,
+        90.0
+      ],
+      "note": "Every visitor who enters your trailer can leave one line.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Window",
+      "kind": "Interactable",
+      "location_uu": [
+        -145.0,
+        -80.0,
+        150.0
+      ],
+      "note": "Shows your own sky.",
+      "coop": false
+    },
+    {
+      "name": "INT_Vehicle_Pad",
+      "kind": "Interactable",
+      "location_uu": [
+        450.0,
+        100.0,
+        5.0
+      ],
+      "note": "Outside the door. Displays one owned vehicle (Part II 43).",
+      "coop": false
+    }
+  ]
+}
