@@ -1,0 +1,32 @@
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  world-data:
+    name: world data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # No dependencies on purpose: world_data.py is pure standard library, so
+      # the checks stay fast and cannot break on someone else's release.
+      - name: Run the world data checks
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Confirm the generated files are committed and current
+        run: |
+          python3 scripts/gen_data.py
+          if ! git diff --quiet; then
+            echo "::error::Generated files are out of date. Run scripts/gen_data.py and commit the result."
+            git diff --stat
+            exit 1
+          fi
+          echo "WORLDS.md and the data tables match blender/world_data.py."

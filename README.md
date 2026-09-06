@@ -104,12 +104,27 @@ reference only, and GDD Part II 47 lists exactly what must be replaced and with
 what. Check marquees, posters, screens and background signage before anything
 is modelled; that is where borrowed IP survives unnoticed into a build.
 
+## Checks
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+Twelve checks, no dependencies, run on every push and pull request. They cover
+the mistakes this data is actually prone to: two worlds built from an identical
+set of shapes (they read as the same place), objects that drift into sharing a
+name, an interact prompt that grew into a sentence, a world layout that stops
+being reproducible, a syntax error in a Blender script CI cannot run, and
+generated files committed out of date.
+
 ## Changing a world
 
 Edit `blender/world_data.py` — nothing else. Add an entry to `WORLDS`, or add
 an `obj(...)` to an existing world's `interactables`. Then re-run
-`./scripts/build_all.sh`. The blockout, the data tables, the markers, the
-catalog and the atlas all follow. There is no second place to keep in sync.
+`./scripts/build_all.sh` and commit what it regenerates. The blockout, the data
+tables, the markers, the catalog and the atlas all follow. There is no second
+place to keep in sync, and CI fails if you forget to commit the regenerated
+files.
 
 ## Why grey boxes
 
