@@ -1,0 +1,127 @@
+{
+  "world": "plasma_strait",
+  "display_name": "Plasma-Strait",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Storm_Anchor",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -1200.0,
+        300.0
+      ],
+      "note": "Calms the lightning in a radius for ninety seconds. Everyone benefits.",
+      "coop": true
+    },
+    {
+      "name": "INT_Charged_Wreck",
+      "kind": "Interactable",
+      "location_uu": [
+        -1600.0,
+        -800.0,
+        200.0
+      ],
+      "note": "Safe to loot only once the charge is bled off.",
+      "coop": false
+    },
+    {
+      "name": "INT_Lightning_Harp",
+      "kind": "Interactable",
+      "location_uu": [
+        1400.0,
+        1000.0,
+        500.0
+      ],
+      "note": "Strikes tune themselves to what you play. Risky and worth it.",
+      "coop": false
+    },
+    {
+      "name": "INT_Salvage_Crane",
+      "kind": "Interactable",
+      "location_uu": [
+        2600.0,
+        -1800.0,
+        800.0
+      ],
+      "note": "One player drives, one player spots.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Barometer",
+      "kind": "Interactable",
+      "location_uu": [
+        -2400.0,
+        1400.0,
+        150.0
+      ],
+      "note": "Predicts the next storm surge accurately. Nobody trusts it.",
+      "coop": false
+    },
+    {
+      "name": "INT_Sound_Cannon_Wreck",
+      "kind": "Interactable",
+      "location_uu": [
+        3400.0,
+        2600.0,
+        200.0
+      ],
+      "note": "Yields the Sound Cannon (Absurd class).",
+      "coop": false
+    },
+    {
+      "name": "INT_Faraday_Chapel",
+      "kind": "Interactable",
+      "location_uu": [
+        -3400.0,
+        -2200.0,
+        300.0
+      ],
+      "note": "The only guaranteed-safe structure. Fits four.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Strait_Crossing",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        3800.0,
+        100.0
+      ],
+      "note": "Passable for eleven seconds after each surge.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Key_of_Storms",
+      "kind": "Interactable",
+      "location_uu": [
+        4200.0,
+        -3600.0,
+        600.0
+      ],
+      "note": "Second of the three CORE keys.",
+      "coop": false
+    },
+    {
+      "name": "INT_Wreck_of_the_Ferry",
+      "kind": "Interactable",
+      "location_uu": [
+        -4400.0,
+        400.0,
+        400.0
+      ],
+      "note": "Passenger manifest. Some of the names are player names.",
+      "coop": true
+    }
+  ]
+}

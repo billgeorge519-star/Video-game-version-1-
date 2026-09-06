@@ -1,0 +1,105 @@
+{
+  "world": "crystal_shatter",
+  "display_name": "The Shatter",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Ringing_Floor",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -600.0,
+        10.0
+      ],
+      "note": "Each step is a note. Other players hear your route as music.",
+      "coop": true
+    },
+    {
+      "name": "INT_Fracture_Line",
+      "kind": "Interactable",
+      "location_uu": [
+        -1400.0,
+        -1000.0,
+        50.0
+      ],
+      "note": "Breaking it opens a path and closes another.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Tuning_Shard",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        1200.0,
+        200.0
+      ],
+      "note": "Held, it makes nearby crystal safe to touch.",
+      "coop": false
+    },
+    {
+      "name": "INT_Prism_Lock",
+      "kind": "Interactable",
+      "location_uu": [
+        2200.0,
+        -800.0,
+        200.0
+      ],
+      "note": "Three beams, three players, one door.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Frozen_Explorer",
+      "kind": "Interactable",
+      "location_uu": [
+        -2600.0,
+        1800.0,
+        150.0
+      ],
+      "note": "An NPC caught mid-step. Freeing them is not obviously a good idea.",
+      "coop": false
+    },
+    {
+      "name": "INT_Echo_Cavern",
+      "kind": "Interactable",
+      "location_uu": [
+        3000.0,
+        -2000.0,
+        100.0
+      ],
+      "note": "Repeats everything said in it for the next player who enters.",
+      "coop": true
+    },
+    {
+      "name": "INT_Shard_Vein",
+      "kind": "Interactable",
+      "location_uu": [
+        -3400.0,
+        -2400.0,
+        200.0
+      ],
+      "note": "The reality's Shard currency source (Part II 38).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Unbroken_Pane",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -3800.0,
+        600.0
+      ],
+      "note": "Shows the Portal Hub from the inside of P1. Someone is standing there.",
+      "coop": false
+    }
+  ]
+}

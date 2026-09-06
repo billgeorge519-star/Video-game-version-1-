@@ -1,0 +1,215 @@
+{
+  "world": "living_city",
+  "display_name": "The Living City",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Bust",
+      "kind": "Interactable",
+      "location_uu": [
+        600.0,
+        -900.0,
+        110.0
+      ],
+      "note": "A marble bust pours coffee. Nobody in the city finds this remarkable. +Stamina.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Complaining_Door",
+      "kind": "Interactable",
+      "location_uu": [
+        -1100.0,
+        -1400.0,
+        120.0
+      ],
+      "note": "Locked, and it explains at length exactly why, and whose fault it is.",
+      "coop": false
+    },
+    {
+      "name": "INT_Staircase_to_Nowhere",
+      "kind": "Interactable",
+      "location_uu": [
+        1800.0,
+        700.0,
+        300.0
+      ],
+      "note": "Ends in open air two storeys up.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Payphone",
+      "kind": "Interactable",
+      "location_uu": [
+        -600.0,
+        1300.0,
+        130.0
+      ],
+      "note": "Rings whenever a player walks past. Someone is on the line and knows your name.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Puddle",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        -300.0,
+        2.0
+      ],
+      "note": "Reflects a version of this street that is on fire. Yours is not.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Chair_That_Waits",
+      "kind": "Interactable",
+      "location_uu": [
+        -1600.0,
+        -400.0,
+        50.0
+      ],
+      "note": "Moves a little closer whenever no player is looking at it.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Mailbox",
+      "kind": "Interactable",
+      "location_uu": [
+        300.0,
+        -1700.0,
+        100.0
+      ],
+      "note": "Holds a note another player left in this reality.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Loud_Painting",
+      "kind": "Interactable",
+      "location_uu": [
+        -1900.0,
+        900.0,
+        200.0
+      ],
+      "note": "Plays music, audible only within two metres of it.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Chandelier",
+      "kind": "Interactable",
+      "location_uu": [
+        900.0,
+        1800.0,
+        600.0
+      ],
+      "note": "Swings to point at the nearest player.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Bureaucrat_s_Desk",
+      "kind": "Interactable",
+      "location_uu": [
+        -400.0,
+        -2400.0,
+        90.0
+      ],
+      "note": "Stamping the form moves a wall somewhere else in the district.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Elevator",
+      "kind": "Interactable",
+      "location_uu": [
+        2200.0,
+        -1200.0,
+        100.0
+      ],
+      "note": "Six buttons. Four go to floors.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Telescope",
+      "kind": "Interactable",
+      "location_uu": [
+        -2400.0,
+        2000.0,
+        150.0
+      ],
+      "note": "Shows other realities.",
+      "coop": false
+    },
+    {
+      "name": "INT_Building_That_Breathes",
+      "kind": "Interactable",
+      "location_uu": [
+        3400.0,
+        -2800.0,
+        2000.0
+      ],
+      "note": "The facade expands and contracts. Warm to the touch.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Suggestion_Box",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        2600.0,
+        100.0
+      ],
+      "note": "Whatever you write shows up somewhere in the city later.",
+      "coop": true
+    },
+    {
+      "name": "INT_Traffic_Light_Choir",
+      "kind": "Interactable",
+      "location_uu": [
+        1500.0,
+        -2200.0,
+        400.0
+      ],
+      "note": "Three lights, singing in harmony. They change key when a car passes.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Fountain",
+      "kind": "Interactable",
+      "location_uu": [
+        -900.0,
+        -0.0,
+        60.0
+      ],
+      "note": "Give it an item, get a different one back. Rarity is roughly preserved.",
+      "coop": false
+    },
+    {
+      "name": "INT_Reality_Weapon_Cache",
+      "kind": "Interactable",
+      "location_uu": [
+        4000.0,
+        3400.0,
+        100.0
+      ],
+      "note": "Contains the Gravity Gun (Reality class) behind a two-player lock.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Eye_of_Reality",
+      "kind": "Interactable",
+      "location_uu": [
+        -4600.0,
+        -4000.0,
+        1200.0
+      ],
+      "note": "Legendary artifact. Origin: Reality 07. Status: unknown.",
+      "coop": false
+    }
+  ]
+}

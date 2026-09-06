@@ -1,0 +1,160 @@
+{
+  "world": "the_garden",
+  "display_name": "The Garden",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Greeting_Vine",
+      "kind": "Interactable",
+      "location_uu": [
+        500.0,
+        -700.0,
+        100.0
+      ],
+      "note": "Shakes your hand. Remembers you next visit.",
+      "coop": false
+    },
+    {
+      "name": "INT_Seed_Bank",
+      "kind": "Interactable",
+      "location_uu": [
+        -900.0,
+        -1200.0,
+        100.0
+      ],
+      "note": "Plant a seed here and it grows into something over real-world days.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Carnivore",
+      "kind": "Interactable",
+      "location_uu": [
+        1400.0,
+        600.0,
+        150.0
+      ],
+      "note": "Feed it the wrong thing and it sulks for a week.",
+      "coop": false
+    },
+    {
+      "name": "INT_Pollen_Bell",
+      "kind": "Interactable",
+      "location_uu": [
+        -1600.0,
+        1100.0,
+        200.0
+      ],
+      "note": "Calls every creature within range. Some of them are pleased about it.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Compost_Heap",
+      "kind": "Interactable",
+      "location_uu": [
+        2200.0,
+        -1600.0,
+        100.0
+      ],
+      "note": "Bury an item, come back later, get something stranger.",
+      "coop": false
+    },
+    {
+      "name": "INT_Walking_Tree",
+      "kind": "Interactable",
+      "location_uu": [
+        -2800.0,
+        -500.0,
+        800.0
+      ],
+      "note": "It is going somewhere. It has been going there for a long time.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Beehive_Archive",
+      "kind": "Interactable",
+      "location_uu": [
+        1100.0,
+        -2600.0,
+        400.0
+      ],
+      "note": "The hum is a recording. Of what, is the question.",
+      "coop": false
+    },
+    {
+      "name": "INT_Mushroom_Trampoline",
+      "kind": "Interactable",
+      "location_uu": [
+        -600.0,
+        2200.0,
+        100.0
+      ],
+      "note": "Launches you into the canopy. The canopy has its own map.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Gardener_s_Shed",
+      "kind": "Interactable",
+      "location_uu": [
+        3300.0,
+        2000.0,
+        150.0
+      ],
+      "note": "Tools, notes, and a schedule for something that is not gardening.",
+      "coop": false
+    },
+    {
+      "name": "INT_Sap_Still",
+      "kind": "Interactable",
+      "location_uu": [
+        -3600.0,
+        3000.0,
+        120.0
+      ],
+      "note": "Brews Healing and Hype potions from harvested sap (Part II 36).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Quiet_Clearing",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -3800.0,
+        0.0
+      ],
+      "note": "Nothing happens until you stop moving for thirty seconds.",
+      "coop": false
+    },
+    {
+      "name": "INT_Plant_Whip_Bloom",
+      "kind": "Interactable",
+      "location_uu": [
+        2600.0,
+        -3000.0,
+        200.0
+      ],
+      "note": "Yields the Plant Whip (Organic class).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Cat",
+      "kind": "Interactable",
+      "location_uu": [
+        -300.0,
+        1400.0,
+        30.0
+      ],
+      "note": "Not a pet. Leads patient players somewhere worth going.",
+      "coop": false
+    }
+  ]
+}

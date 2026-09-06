@@ -1,0 +1,116 @@
+{
+  "world": "portal_glade",
+  "display_name": "The Portal Glade",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        3400.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Standing_Portals",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -1800.0,
+        160.0
+      ],
+      "note": "Six frames with nothing holding them up. Each one is lit a different colour.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Campfire",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -0.0,
+        40.0
+      ],
+      "note": "The community panel's fire. Players sitting here hear each other clearly regardless of proximity falloff \u2014 the one place voice does not fade.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Unlit_Frame",
+      "kind": "Interactable",
+      "location_uu": [
+        -900.0,
+        1560.0,
+        160.0
+      ],
+      "note": "A seventh frame, dark.",
+      "coop": false
+    },
+    {
+      "name": "INT_Trail_Markers",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        800.0,
+        80.0
+      ],
+      "note": "Stones stacked by players. Each stack names a reality and a warning.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Old_Bench",
+      "kind": "Interactable",
+      "location_uu": [
+        -1400.0,
+        -600.0,
+        50.0
+      ],
+      "note": "Facing the portals. Worn smooth in two places.",
+      "coop": false
+    },
+    {
+      "name": "INT_Moss_Clock",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        -1400.0,
+        100.0
+      ],
+      "note": "Tells the time in whichever reality you last visited.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Returning_Path",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        3000.0,
+        20.0
+      ],
+      "note": "Leads back to your trailer on foot. Takes four minutes. Worth doing once.",
+      "coop": false
+    },
+    {
+      "name": "INT_Lantern_Tree",
+      "kind": "Interactable",
+      "location_uu": [
+        1800.0,
+        -1800.0,
+        400.0
+      ],
+      "note": "Hang a lantern to leave a message for whoever arrives next.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Listening_Stone",
+      "kind": "Interactable",
+      "location_uu": [
+        -2000.0,
+        2000.0,
+        90.0
+      ],
+      "note": "Plays back the last thing said in this glade.",
+      "coop": false
+    }
+  ]
+}

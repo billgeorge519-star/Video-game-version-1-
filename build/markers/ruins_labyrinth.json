@@ -1,0 +1,127 @@
+{
+  "world": "ruins_labyrinth",
+  "display_name": "Ruins-Labyrinth",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        7000.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Threshold_Stone",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        6000.0,
+        100.0
+      ],
+      "note": "Names everyone currently inside the maze.",
+      "coop": true
+    },
+    {
+      "name": "INT_Moss_Map",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        4800.0,
+        140.0
+      ],
+      "note": "The moss grows in the shape of the maze. It is out of date.",
+      "coop": false
+    },
+    {
+      "name": "INT_Wall_That_Listens",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        3000.0,
+        300.0
+      ],
+      "note": "Say the right word and it steps aside. The word is elsewhere in the maze.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Torch_Line",
+      "kind": "Interactable",
+      "location_uu": [
+        -1400.0,
+        1400.0,
+        200.0
+      ],
+      "note": "Lit torches persist for other players for an hour.",
+      "coop": true
+    },
+    {
+      "name": "INT_Offering_Bowl",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -0.0,
+        100.0
+      ],
+      "note": "Give up an item; the maze simplifies for you. Give up an artifact; it opens.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Repeating_Room",
+      "kind": "Interactable",
+      "location_uu": [
+        1600.0,
+        -1600.0,
+        150.0
+      ],
+      "note": "The same room four times. One of them has an extra door.",
+      "coop": false
+    },
+    {
+      "name": "INT_Buried_Bell",
+      "kind": "Interactable",
+      "location_uu": [
+        -2200.0,
+        -2200.0,
+        50.0
+      ],
+      "note": "Ringing it resets the maze layout for everyone in it.",
+      "coop": true
+    },
+    {
+      "name": "INT_Paint_Blaster_Cache",
+      "kind": "Interactable",
+      "location_uu": [
+        2800.0,
+        600.0,
+        100.0
+      ],
+      "note": "Yields the Paint Blaster (Art class). Paint marks walls permanently.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Key_of_Stone",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -3400.0,
+        200.0
+      ],
+      "note": "Third of the three CORE keys, at the maze's true centre.",
+      "coop": false
+    },
+    {
+      "name": "INT_Exit_That_Moves",
+      "kind": "Interactable",
+      "location_uu": [
+        3400.0,
+        -3400.0,
+        150.0
+      ],
+      "note": "It is never where you left it.",
+      "coop": false
+    }
+  ]
+}

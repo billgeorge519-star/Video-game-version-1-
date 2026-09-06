@@ -1,0 +1,149 @@
+{
+  "world": "the_bazaar",
+  "display_name": "The Bazaar",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        9000.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Trade_Ring",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -0.0,
+        100.0
+      ],
+      "note": "The bartering floor. Two-sided offers, both confirm (Part II 39).",
+      "coop": true
+    },
+    {
+      "name": "INT_Appraiser_s_Stall",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        1200.0,
+        140.0
+      ],
+      "note": "Tells you what an artifact is actually worth. Charges for the opinion.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Fence",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        -1200.0,
+        140.0
+      ],
+      "note": "Buys anything, asks nothing, pays badly.",
+      "coop": false
+    },
+    {
+      "name": "INT_Currency_Exchange",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        -2000.0,
+        140.0
+      ],
+      "note": "Credits, Shards and Tokens (Part II 38). Rates move with player activity.",
+      "coop": false
+    },
+    {
+      "name": "INT_Furniture_Row",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        2800.0,
+        140.0
+      ],
+      "note": "Trailer decor. The healthiest thing in the shop.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Auction_Board",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -3000.0,
+        220.0
+      ],
+      "note": "Player-listed rare items on a timer.",
+      "coop": true
+    },
+    {
+      "name": "INT_Weapon_Tinker",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        -3600.0,
+        140.0
+      ],
+      "note": "Applies upgrade paths to weapons you already own (Part II 37).",
+      "coop": false
+    },
+    {
+      "name": "INT_Potion_Row",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        -4400.0,
+        140.0
+      ],
+      "note": "All five potions, marked up. Cheaper to brew them yourself.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Empty_Stall",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        -5200.0,
+        140.0
+      ],
+      "note": "Any player can claim it for an hour and sell their own finds from it.",
+      "coop": true
+    },
+    {
+      "name": "INT_Rumour_Table",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        5000.0,
+        100.0
+      ],
+      "note": "NPCs repeat things players have actually done in other realities.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Locked_Case",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        -6000.0,
+        120.0
+      ],
+      "note": "Contains something nobody in the market will name.",
+      "coop": false
+    },
+    {
+      "name": "INT_Lantern_Line",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -6800.0,
+        500.0
+      ],
+      "note": "Lighting the whole street opens the night market.",
+      "coop": false
+    }
+  ]
+}

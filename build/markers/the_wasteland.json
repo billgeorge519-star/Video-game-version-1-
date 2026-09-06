@@ -1,0 +1,138 @@
+{
+  "world": "the_wasteland",
+  "display_name": "The Wasteland",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Last_Radio_Tower",
+      "kind": "Interactable",
+      "location_uu": [
+        2000.0,
+        -3000.0,
+        1800.0
+      ],
+      "note": "Broadcasts a loop. The loop has a gap in it, and the gap is a message.",
+      "coop": false
+    },
+    {
+      "name": "INT_Fuel_Cache",
+      "kind": "Interactable",
+      "location_uu": [
+        -1600.0,
+        -1200.0,
+        80.0
+      ],
+      "note": "Vehicle fuel. Guarded by something that was not always hostile.",
+      "coop": false
+    },
+    {
+      "name": "INT_Scrap_Press",
+      "kind": "Interactable",
+      "location_uu": [
+        1200.0,
+        1400.0,
+        150.0
+      ],
+      "note": "Turns junk into crafting materials (Part II 37).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Bunker_Door",
+      "kind": "Interactable",
+      "location_uu": [
+        -2800.0,
+        2000.0,
+        100.0
+      ],
+      "note": "Needs two hands on two wheels twelve metres apart.",
+      "coop": true
+    },
+    {
+      "name": "INT_Family_Photo",
+      "kind": "Interactable",
+      "location_uu": [
+        800.0,
+        -2200.0,
+        60.0
+      ],
+      "note": "An artifact worth nothing and everything.",
+      "coop": false
+    },
+    {
+      "name": "INT_Rust_Choir",
+      "kind": "Interactable",
+      "location_uu": [
+        3400.0,
+        800.0,
+        300.0
+      ],
+      "note": "Wind through wrecks. It is playing a song someone wrote.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Trading_Post",
+      "kind": "Interactable",
+      "location_uu": [
+        -600.0,
+        3400.0,
+        120.0
+      ],
+      "note": "Player bartering hub for this reality (Part II 39).",
+      "coop": true
+    },
+    {
+      "name": "INT_Nano_Drone_Wreck",
+      "kind": "Interactable",
+      "location_uu": [
+        4000.0,
+        -2400.0,
+        100.0
+      ],
+      "note": "Yields the Nano Drone (Technology class).",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Rift",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -4600.0,
+        400.0
+      ],
+      "note": "World event anchor: defeat the Rift Guardian, collect 5 Energy Cores.",
+      "coop": true
+    },
+    {
+      "name": "INT_Boneyard_Sign",
+      "kind": "Interactable",
+      "location_uu": [
+        -4200.0,
+        -600.0,
+        200.0
+      ],
+      "note": "Names every player who died in this reality this week.",
+      "coop": true
+    },
+    {
+      "name": "INT_Working_Streetlight",
+      "kind": "Interactable",
+      "location_uu": [
+        1600.0,
+        4000.0,
+        400.0
+      ],
+      "note": "The only one still lit for a hundred kilometres. Full health regen.",
+      "coop": false
+    }
+  ]
+}

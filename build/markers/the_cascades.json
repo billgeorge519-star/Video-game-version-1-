@@ -1,0 +1,138 @@
+{
+  "world": "the_cascades",
+  "display_name": "The Cascades",
+  "units": "unreal_cm",
+  "markers": [
+    {
+      "name": "PORTAL_Arrival",
+      "kind": "Portal",
+      "location_uu": [
+        0.0,
+        8000.0,
+        0.0
+      ],
+      "note": "Arrival point and ejection portal origin."
+    },
+    {
+      "name": "INT_The_Terrace",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -0.0,
+        200.0
+      ],
+      "note": "Parasols, tables, a view over the falls. Players idle here between runs.",
+      "coop": true
+    },
+    {
+      "name": "INT_Waterfall_Curtain",
+      "kind": "Interactable",
+      "location_uu": [
+        5200.0,
+        -3000.0,
+        600.0
+      ],
+      "note": "There is a room behind it. There is a room behind three of the four.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Ascending_Stones",
+      "kind": "Interactable",
+      "location_uu": [
+        -1800.0,
+        -2200.0,
+        400.0
+      ],
+      "note": "Stepping stones up to the floating islands. They sink if you hesitate.",
+      "coop": false
+    },
+    {
+      "name": "INT_Mist_Ruin",
+      "kind": "Interactable",
+      "location_uu": [
+        -4000.0,
+        1800.0,
+        300.0
+      ],
+      "note": "A building the mist keeps hiding. Its floor plan is not consistent.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Parasol_That_Is_Not_One",
+      "kind": "Interactable",
+      "location_uu": [
+        600.0,
+        -400.0,
+        260.0
+      ],
+      "note": "Opens into a chute down to a lower valley.",
+      "coop": false
+    },
+    {
+      "name": "INT_Secret_Portal",
+      "kind": "Interactable",
+      "location_uu": [
+        3400.0,
+        4400.0,
+        200.0
+      ],
+      "note": "A portal in a world that is not a hub. Leads to one random reality.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Island_Bell",
+      "kind": "Interactable",
+      "location_uu": [
+        1000.0,
+        -4600.0,
+        4200.0
+      ],
+      "note": "Rings across the whole valley. Every player hears it and knows roughly where.",
+      "coop": false
+    },
+    {
+      "name": "INT_Field_Notes",
+      "kind": "Interactable",
+      "location_uu": [
+        -800.0,
+        3400.0,
+        100.0
+      ],
+      "note": "Someone catalogued this place. Their last entry is unfinished.",
+      "coop": true
+    },
+    {
+      "name": "INT_The_Long_Rope_Bridge",
+      "kind": "Interactable",
+      "location_uu": [
+        2400.0,
+        -1400.0,
+        3000.0
+      ],
+      "note": "Two players' weight makes it stable. One player's makes it swing.",
+      "coop": true
+    },
+    {
+      "name": "INT_Creature_Nest",
+      "kind": "Interactable",
+      "location_uu": [
+        -5200.0,
+        -4000.0,
+        800.0
+      ],
+      "note": "Not hostile. Curious. Follows you for a while and then does not.",
+      "coop": false
+    },
+    {
+      "name": "INT_The_Overlook",
+      "kind": "Interactable",
+      "location_uu": [
+        0.0,
+        -6200.0,
+        2600.0
+      ],
+      "note": "The postcard shot. Emote here and it is worth extra reputation.",
+      "coop": false
+    }
+  ]
+}
